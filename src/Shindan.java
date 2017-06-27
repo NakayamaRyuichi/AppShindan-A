@@ -27,7 +27,19 @@ public class Shindan {
 	}
 
 	public void sirumon3() {
-
+		int ans3;
+		System.out.println("質問3");
+		System.out.println("あなたは20歳以上ですか？");
+		System.out.println("1、はい ２、いいえ");
+		do{
+			System.out.println("回答" + ans3 = sc.nexInt());
+			if(ans3 < 1 || 2 < ans3){
+				System.out.println("指定した回答を入力してください");
+				System.out.println();
+			}
+		}
+		while(ans3 < 1 || 2 < ans3);
+			return i;
 	}
 
 	public void sirumon4() {
